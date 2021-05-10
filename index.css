@@ -1,0 +1,52 @@
+.body-container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.card {
+    margin: 2rem;
+}
+
+.card-image {
+    width: 380px;
+    height: 250px;
+}
+
+img:hover {
+    transform: scale(1.01);
+}
+
+.title  {
+    color: #000;
+    font-family: 'Playfair Display','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-bottom: -1rem;
+}
+
+.subtitle {
+    color: #000;
+    font-family: 'Playfair Display','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.read-more {
+    color: #000;
+    font-family: 'Playfair Display','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-style:normal;
+    font-weight: 900;
+    font-size: 1.15rem;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .body-container {
+        flex-direction: column;
+    }
+}
